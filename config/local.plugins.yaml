@@ -15,6 +15,7 @@
 - repo: tpope/vim-surround
 - repo: junegunn/vim-easy-align
 - repo: voldikss/vim-translator
+- repo: APZelos/blamer.nvim
 - { repo: Valloric/MatchTagAlways, on_ft: [html, xhtml, xml, jinja]}
 
 - repo: Yggdroot/indentLine
@@ -26,9 +27,6 @@
   merge: 0
   rev: release
   hook_add: source $VIM_PATH/config/plugins/coc.vim
-
-# tencent jce file
-- { repo: tenfyzhong/jce-highlight, on_ft: jce}
 
 # pip install https://github.com/Rykka/instant-rst.py/archive/master.zip
 - { repo: gu-fan/riv.vim, on_ft: rst}
