@@ -53,3 +53,5 @@ set mmp=5000
 " Disable built-in statusline & tabline
 let g:tabline_plugin_enable = 0
 let g:statusline_plugin_enable = 0
+
+autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.keylayout.ABC
