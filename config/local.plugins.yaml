@@ -95,9 +95,7 @@
     let g:go_list_height = 10
     let g:go_list_autoclose = 0
     let g:go_fold_enable = []
-    let g:go_info_mode = 'gopls'
-    let g:go_def_mode = 'gopls'
-    let g:go_referrers_mode = 'gopls'
+    let g:go_info_mode = 'guru'
     let g:go_implements_mode = 'guru'
     let g:go_highlight_array_whitespace_error = 0
     let g:go_highlight_chan_whitespace_error = 0
