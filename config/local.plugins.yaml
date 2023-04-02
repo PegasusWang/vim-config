@@ -95,8 +95,6 @@
     let g:go_list_height = 10
     let g:go_list_autoclose = 0
     let g:go_fold_enable = []
-    let g:go_info_mode = 'guru'
-    let g:go_implements_mode = 'guru'
     let g:go_highlight_array_whitespace_error = 0
     let g:go_highlight_chan_whitespace_error = 0
     let g:go_highlight_space_tab_error = 0
@@ -116,7 +114,7 @@
     let g:go_highlight_variable_assignments = 0
     let g:go_fmt_command = "goimports"
     let g:go_def_reuse_buffer = 1
-    let g:go_auto_type_info = 1
+    let g:go_auto_type_info = 0
     if has('nvim') || exists(':terminal')
       let g:go_term_enabled = 1
       let g:go_term_close_on_exit = 0
