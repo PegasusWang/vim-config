@@ -262,6 +262,7 @@
       \ 'vimwiki': 'markdown',
       \ 'pandoc': 'markdown',
       \ 'markdown': 'toc',
+      \ 'go': 'coc',
       \ }
 
 - repo: junegunn/fzf
