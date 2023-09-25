@@ -1,8 +1,15 @@
 - repo: ntpeters/vim-better-whitespace
+  hook_add: |
+    let g:better_whitespace_filetypes_blacklist=['diff', 'git', 'gitcommit', 'unite', 'qf', 'help', 'markdown', 'fugitive', 'defx', 'dashboard']
+
 - repo: terryma/vim-multiple-cursors
 - repo: tpope/vim-repeat
 - repo: jszakmeister/vim-togglecursor
 - repo: mhinz/vim-startify
+# - repo: glepnir/dashboard-nvim
+#   on_event: VimEnter
+#   hook_source: luafile $VIM_PATH/config/plugins/dashboard.lua
+# - repo: nvim-tree/nvim-web-devicons
 - repo: tpope/vim-abolish
 - repo: tpope/vim-projectionist
 - repo: vim-scripts/BufOnly.vim
@@ -21,7 +28,7 @@
 
 - repo: Yggdroot/indentLine
   hook_add: |
-    let g:indentLine_bufNameExclude = ['NERD_tree.*', 'defx', 'startify', '__vista__']
+    let g:indentLine_bufNameExclude = ['NERD_tree.*', 'defx', 'startify', '__vista__', 'dashboard']
     let g:indentLine_fileTypeExclude = ['defx', '__vista__', 'help', 'clap_input', 'tagbar', 'vista_kind']
 
 - repo: neoclide/coc.nvim

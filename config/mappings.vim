@@ -208,7 +208,8 @@ map <Leader>cd :lcd %:p:h<CR>:pwd<CR>
 nnoremap gf :vertical wincmd f<CR>
 
 " Fast saving from all modes
-nnoremap <Leader>w :write<CR>
+" nnoremap <Leader>w :write<CR>
+nnoremap <Leader>w :update<CR>
 xnoremap <Leader>w <Esc>:write<CR>
 nnoremap <C-s> :<C-u>write<CR>
 xnoremap <C-s> :<C-u>write<CR>
