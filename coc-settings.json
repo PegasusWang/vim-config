@@ -28,5 +28,7 @@
     }
   },
   "python.pythonPath": "/usr/local/bin/python3",
-  "suggest.noselect": false
+  "suggest.noselect": false,
+  "colors.enable": true,
+  "inlayHint.enable": false
 }
