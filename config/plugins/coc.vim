@@ -65,7 +65,7 @@ endfunction
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
-autocmd ColorScheme * highlight CocHighlightText ctermbg=237 guibg=#373b41
+autocmd ColorScheme * highlight CocHighlightText ctermfg=109 ctermbg=60 guifg=#8abeb7 guibg=#5f5f87
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
@@ -75,6 +75,8 @@ nmap <Leader>rf <Plug>(coc-refactor)
 nmap <Leader>p  <Plug>(coc-format)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
+
+nmap <leader>ti :call CocAction('showIncomingCalls') <cr>
 
 augroup mygroup
   autocmd!

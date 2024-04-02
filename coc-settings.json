@@ -30,5 +30,6 @@
   "python.pythonPath": "/usr/local/bin/python3",
   "suggest.noselect": false,
   "colors.enable": true,
+  "highlight.disableLanguages": ["go"],
   "inlayHint.enable": false
 }
