@@ -280,7 +280,7 @@ endif
 " solve wrong encoding
 if has("multi_byte")
     set encoding=utf-8
-    set termencoding=utf-8
+    " set termencoding=utf-8
     set formatoptions+=mM
     set fencs=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 endif
